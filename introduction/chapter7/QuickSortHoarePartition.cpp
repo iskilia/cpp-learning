@@ -25,7 +25,7 @@ void print(const std::vector<int>& vec) {
  * For the provided vector, partition it by v[low] as the pivot
  * v is the vector to partition
  * low is the starting index to partition at
- * high is the ending index to partition at. We also select v[high] as a pivot
+ * high is the ending index to partition at.
  * Returns the index of partition index
  */
 int partition(std::vector<int>& v, int low, int high) {
